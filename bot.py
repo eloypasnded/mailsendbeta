@@ -56,4 +56,10 @@ def handle_docs_audio(message):
     bot.reply_to(message, 'Hecho')
 
 # Inicia el bot
-bot.polling()
+while True:
+    try:
+        bot.polling(none_stop=True)
+    except Exception as e:
+        print('Error de conexion')
+        # Espera 10 segundos antes de intentar reconectarse
+        time.sleep(5)
