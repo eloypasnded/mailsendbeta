@@ -1,0 +1,4 @@
+pyTelegramBotAPI==3.7.6
+moviepy==1.0.3
+telebot
+smtplib
