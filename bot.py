@@ -5,15 +5,15 @@ from email.mime.base import MIMEBase
 from email import encoders
 
 # Token del bot de Telegram
-TOKEN = 'TU_TOKEN_AQUI'
+TOKEN = '7128002872:AAGxG9H0dXjdI7h6vf-CjApsR319JpMa0Zg'
 bot = telebot.TeleBot(TOKEN)
 
 # Información del servidor SMTP y credenciales de correo electrónico
 smtp_server = 'smtp.yandex.com'
 smtp_port = 465
-email_user = 'tu_correo@yandex.ru'
-email_password = 'tu_contraseña'
-email_send_to = 'destinatario@ejemplo.com'
+email_user = 'ernp05@yandex.ru'
+email_password = 'LoliconMaster'
+email_send_to = 'ernp@nauta.cu'
 
 # Manejador para mensajes que contienen multimedia
 @bot.message_handler(content_types=['photo', 'video', 'document', 'audio'])
