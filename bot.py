@@ -15,6 +15,11 @@ email_user = 'ernp05@yandex.ru'
 email_password = 'squrumndnexlpjfa'
 email_send_to = 'ernp@nauta.cu'
 
+@bot.message_handler(commands=['start'])
+def start(message):
+    bot.send_message(message.chat.id, 'Bot funcionando')
+
+
 # Manejador para mensajes que contienen multimedia
 @bot.message_handler(content_types=['photo', 'video', 'document', 'audio'])
 def handle_docs_audio(message):
