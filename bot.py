@@ -12,7 +12,7 @@ bot = telebot.TeleBot(TOKEN)
 smtp_server = 'smtp.yandex.com'
 smtp_port = 465
 email_user = 'ernp05@yandex.ru'
-email_password = 'fxyjnmvgwggvthph'
+email_password = 'squrumndnexlpjfa'
 email_send_to = 'ernp@nauta.cu'
 
 # Manejador para mensajes que contienen multimedia
